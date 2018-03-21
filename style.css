@@ -1,0 +1,21 @@
+@import 'alom.css';
+@import url(@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+
+* {
+	background-color: #FFBF00;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h2 {
+	color:#000000;
+	opacity: .3;
+}
+
+.main-content{
+	align-items: center;
+	display: inline-flex;
+	margin: 0 auto;
+	
+}
