@@ -1,0 +1,22 @@
+scss_files: 'scss/**/*.scss'
+
+exclude:
+  - 'dist/**'
+  - 'docs/**'
+  - 'node_modules/**'
+  - 'scss/_reset.scss'
+
+linters:
+  VendorPrefix:
+    exclude:
+      - 'scss/_mixins.scss'
+  ImportantRule:
+    exclude:
+      - 'scss/_mixins.scss'
+      - 'scss/_responsive.scss'
+      - 'scss/_utilities.scss'
+  BorderZero:
+    enabled: false
+  Indentation:
+    severity: warning
+    width: 2
